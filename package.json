@@ -1,0 +1,35 @@
+{
+    "name": "code-dark-theme",
+    "displayName": "Code Dark Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "publisher": "ArpanMaheshwari",
+    "author": {
+        "name": "Arpan Maheshwari"
+    },
+    "license": "MIT",
+    "homepage": "",
+    "keywords": [
+        "Code Dark",
+        "VSCode Dark",
+        "Dark",
+        "Dark Theme",
+        "Theme",
+        "Coding"
+    ],
+    "icon": "d.png",
+
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Code Dark Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Code Dark Theme-color-theme.json"
+        }]
+    }
+}
